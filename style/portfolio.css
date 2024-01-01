@@ -50,3 +50,15 @@
 .lien-conteneur-photo:hover .photo-hover {
   display: flex;
 }
+
+@media screen and (max-width: 996px) {
+  .grid-paysage {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .grid-portrait {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}
